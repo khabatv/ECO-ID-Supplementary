@@ -26,6 +26,9 @@ This repository contains the benchmarking scripts, intentional error-prone test 
 
 ## Requirements
 To run the scripts, ensure you have Python 3.8+ installed along with the libraries listed in `requirements.txt`.
+pandas>=1.3.0
+requests>=2.25.1
+numpy>=1.21.0
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
