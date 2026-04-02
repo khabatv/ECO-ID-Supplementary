@@ -13,12 +13,12 @@ This repository contains the benchmarking scripts, intentional error-prone test 
 ECO-ID is an interactive application designed to resolve, annotate, and cross-validate identifiers (IDs) across multiple omics domains, specifically excelling at processing human-compiled lists prone to misspellings and inconsistent naming. This repository provides the data used to validate ECO-ID’s 92-96% accuracy rate compared to traditional tools.
 
 ## Repository Structure
-### /scripts
+### scripts
 * `Supplementary_Platforms_Script.py`: Python script used to benchmark ECO-ID against DAVID, bioDBnet, and g:Profiler.
 * `Supplementary_biological_database_Script.py`: Logic for batch retrieval from NCBI, UniProt, Ensembl, and HGNC.
 * `Supplementary_chemical_database_Script.py`: Logic for batch retrieval from PubChem, ChEMBL, KEGG, and ChemSpider.
 
-### /data
+### data
 * `Supplementary_Table_S1.csv`: 100 chemical entities with human-generated errors and ECO-ID results.
 * `Supplementary_Table_S2.csv`: 100 protein and gene entities with intentional errors and ECO-ID results.
 * `Supplementary_Table_S3.csv`: results for 100 chemical entities with human-generated errors using ID-handling databases.
